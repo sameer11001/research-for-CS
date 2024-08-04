@@ -1,0 +1,1 @@
+systemctl status apache2  this comm used for show server status

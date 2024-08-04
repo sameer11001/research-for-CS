@@ -1,0 +1,40 @@
+information about nodejs and there library 
+
+express : npm install express //forinstall express framework
+const express = require('express');
+----------------------------------------------------------
+async : require ('async') for asynchronours javascript function
+----------------------------------------------------------
+lodash : npm i -g npm //for install
+var lodash=require('lodash');
+
+Iterating arrays, objects, & strings
+Manipulating & testing values
+Creating composite functions
+----------------------------------------------------------
+fs-extra : npm install fs-extra //for install
+const fs = require('fs-extra') for use fs-e 
+ 
+for file sys
+----------------------------------------------------------
+nodemon : npm install -g nodemon //for install
+//nodemon to run server dynamically and refesh the change
+//to run the nodemon we type : nodemon typenamejavascript
+----------------------------------------------------------
+ejs : npm install ejs // for install 
+//we type : app.set('view engine', 'ejs');
+//in app.get('/'(this mean localhost just), (req, res)) method 
+//we use external file we name it name.ejs and type pure html lang
+//we type inside get() method 
+{
+res.render('name ejs file')
+}
+and after we finish all pages we want we write 
+app.use((req,res) => {
+ res.status(404).render('404')
+ //this method for redirect the server for error page directly if there any 
+fault typing in the path url
+});
+we can use <% %> to pass data between html page and server in (ejs file)
+<%= %>for dynamic assign
+we use inside <%= include('./path then ejsfile.ejs') %>  

@@ -1,0 +1,11 @@
+JWT is a json web token self contained way for securely transmitting information between parties as json and encoded in some way of algorithim like HMAC or RSA or ECDSA
+
+used for Authorization and information exchange
+
+What is the JSON Web Token structure?
+
+In its compact form, JSON Web Tokens consist of three parts separated by dots (.), which are:
+
+Header : containing the main info about the algorihtm what will be used and the type 
+Payload : the information
+Signature : to verify the message wasn't changed along the way 

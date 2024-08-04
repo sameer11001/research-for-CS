@@ -1,0 +1,140 @@
+blob is ashortcut about binary large object string can be up to 2,147,483,647 charcter
+
+Ajax isn't atechnology its a combination between javascript and xml
+
+RestfulApi : an interface that two computer systems use to exchange information securely over the internet like json most popular
+
+
+HttpResponseStatus : about the page status like if there any error or good connection or server down like this or the page not found
+
+xsl : extensible stylesheet language 
+
+ApiEndpoint : An API endpoint is a digital location exposed via the API from where the API receives requests and sends out responses. Each endpoint is a URL (Uniform Resource Locator) that provides the location of a resource on the API server.
+
+ build on your understanding of APIs and endpoints, let’s take up a small example.
+
+Consider the Cat Facts API. This API provides random cat facts. However, it lists various endpoints using which you can request categorized information. There are three available endpoints:
+
+/fact: Returns a single, random cat fact.
+/facts: Returns a list of random cat facts.
+/breeds: Returns a list of cat breeds.
+To make a request to this API and retrieve a cat fact, you need to append the correct endpoint (which is /fact) to the base URL of the API (which is https://catfact.ninja/). This will give you the following endpoint URL: https://catfact.ninja/fact
+
+If you send a GET request to the above URL, you’ll receive a similar result:
+
+///////////////////////////////////////
+1.few front end html css js
+2.php basics
+3.sql 
+4.mysql php admin
+5.bashscript
+6.learning about command line terminal code
+7.http and https and hosting and DNS
+8.RSA
+9.API
+10.RPC
+11.SOAP WEBSERVEICES
+12.and API REST
+
+13.learning about authorization and authentication 
+14.learn about token
+15.learn what is OAUTH 2 and OAUTH 0
+16.learn about nosql 
+17.learning about MVC basic
+18.and change the pdo or mysqli functions to what ever the nosql u use
+19.learning about lemon by laravel //ithink leave lumen
+20.know about testing like php unit
+21.learning about ssh and how to upload the file server to web server
+22.nginx and apache \\
+
+then (laravel) /////////////////**************************
+
+
+learn about services container inside framework and how does controller call the services
+and how does the controller work and the routes and learn about the architecture how does working
+learn about template engine there is alot of templete engine each frame has one laravel has blade template
+learning about php FIG (php standard) PSR ver number
+learn about how to deal with adifferent environement 
+after that and this important learn about software principles like (solid dry kiss)
+after that learn design patterns
+after that learn some testing like travis ci or github actions
+after that learn the debugging like Xdebug and this is important to debug and track and reproduce the bug and error
+learning about loging and trace the error that happen when the programme is start and the most famous libraries is Monolog or using online services like Elasticsearch or kibana
+and try to add some log and learn about how to do it
+learn about ORM like doctrine for symphony fw or Eloquent  for laravel 
+after that learn about cache about data for api and the most common is redis and mem cache
+for advance making the redis is the cache which php save the session inside the redis not in file
+learn  code php code sniffer
+learn about php static analyzer
+learn about git hooks 
+
+learn about system design and this is the most important to understand how to build the application
+//////////////////////////
+the next thing is for build your app through phings and this sw is from apache ant and apache ant is abasic tool for maven and maven is for building application to java and another lan programming
+learn about ci cd
+optional what is micro service for you application and to convert to 
+learn about event driven then directly learn cron job is imp and making background tasks
+in a specific time
+after that learn about aws google api firebase cuz in the mean time we need it and how to deal with it
+after that learn about ddd and TDD is to seprate your software into layer (data layer ,domain layer,infarstructure layer)
+learn about docker or jenkins or learn both
+learn server monitoring  like H top or netdata 
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+information
+web server programming env
+
+IIS : ASP (.NET)
+
+Tomcat : Servlet
+
+Jetty : Servlet
+
+Apache : Php, CGI
+
+app server
+
+Application Servers -> Programming Environment
+
+MTS : COM+
+
+WAS : EJB
+
+JBoss : EJB
+
+WebLogic Application Server : EJB
+
+//////////////////////////////
+the SOAP and RPC and Websocket and rest api is away to connecting between two server or two language
+but there is adifference between them with the performance search about it and compare
+
+RSA is communication ways using public private key
+
+in SOAP we use data and soap standard in XML only, uses WSDL for communciation invoke 
+services by calling rpc method
+we can transfer in http and ftp smtp protocols
+
+
+in REST api its an architectural style protocol
+we can use xml or json
+we can call it simple in url path
+only in http transfer 
+performance is much better
+
+***************
+GraphQl is api that something like query way to making the data execute 
+
+
+
+
+

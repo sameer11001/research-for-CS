@@ -1,0 +1,44 @@
+/** @param {NS} ns **/
+export async function main(ns) {
+	// user input: target, hackthreads, growthreads, random number so scripts don't walk on themselves.
+	var target = ns.args[0];
+	var hackthreads = ns.args[1];
+	var growthreads = ns.args[2];
+	var userrunnumber = ns.args[3];
+	var minSec = ns.getServerMinSecurityLevel(target);
+	var maxMoney = ns.getServerMaxMoney(target);
+	var minMoney = maxMoney * .9;
+
+	while (true) {
+		// weaken section
+		while (ns.getServerSecurityLevel(target) > minSec + .01 || ns.getServerMoneyAvailable(target) < minMoney) {
+			ns.toast("Reset" + target);
+			var WeakThreadsNeeded = (ns.getServerSecurityLevel(target) - minSec) / .05;
+			if (ns.getServerMoneyAvailable(target) < minMoney) {
+				ns.run("grow.js", 2000, target, userrunnumber)
+				ns.run("weak.js", WeakThreadsNeeded + ((2000 * .004) / .05) + 50, target, userrunnumber);
+				await ns.sleep(ns.getWeakenTime(target) + 1000);
+			} else if (ns.getServerSecurityLevel(target) > minSec + .01) {
+				ns.run("weak.js", WeakThreadsNeeded, target, userrunnumber);
+				await ns.sleep(ns.getWeakenTime(target) + 1000);
+			} else {
+				break;
+			}
+		}
+		// hacking segment. will call "fullrun" script for as many times as can fit within 1 hack timeframe
+		ns.toast("hack" + target);
+		var weaktime = ns.getWeakenTime(target);
+		var hacktime = ns.getHackTime(target);
+		var growtime = ns.getGrowTime(target);
+		var weakthreads = (Math.ceil((hackthreads * .002) + (growthreads * .004)) / .05) + 50
+		while (ns.getServerMoneyAvailable(target) > ns.getServerMaxMoney(target) * .25) { //while server amt is over 25%
+			for (let i = 1; i * 1000 <= hacktime; i++) {
+				ns.run("fullrun.js", 1, target, i, weakthreads, weaktime, growthreads, growtime, hackthreads, hacktime, userrunnumber);
+				await ns.sleep(1000);
+			}
+			await ns.sleep(ns.getWeakenTime(target) + 5000);
+			ns.toast("end");
+		}
+	}
+}
+

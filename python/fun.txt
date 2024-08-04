@@ -1,0 +1,321 @@
+_abc
+_ast
+_bisect
+_blake2
+_codecs
+_codecs_cn
+_codecs_hk
+_codecs_iso2022
+_codecs_jp
+_codecs_kr
+_codecs_tw
+_collections
+_contextvars
+_csv
+_datetime
+_functools
+_heapq
+_imp
+_io
+_json
+_locale
+_lsprof
+_md5
+_multibytecodec
+_opcode
+_operator
+_pickle
+_random
+_sha1
+_sha256
+_sha3
+_sha512
+_signal
+_sre
+_stat
+_statistics
+_string
+_struct
+_symtable
+_thread
+_tracemalloc
+_warnings
+_weakref
+_winapi
+_xxsubinterpreters
+array
+atexit
+audioop
+binascii
+builtins
+cmath
+errno
+faulthandler
+gc
+itertools
+marshal
+math
+mmap
+msvcrt
+nt
+sys
+time
+winreg
+xxsubtype
+zlib
+
+ 
+C:\Users\immortall prog\AppData\Local\Programs\Python\Python310
+      	 	
+
+ 
+C:\Users\immortall prog\AppData\Local\Programs\Python\Python310\python310.zip
+      	 	
+
+ 
+C:\Users\immortall prog\AppData\Local\Programs\Python\Python310\DLLs
+      	 	
+_asyncio
+_bz2
+_ctypes
+_ctypes_test
+_decimal
+_elementtree
+_hashlib
+_lzma
+_msi
+_multiprocessing
+_overlapped
+_queue
+_socket
+_sqlite3
+_ssl
+_testbuffer
+_testcapi
+_testconsole
+_testimportmultiple
+_testinternalcapi
+_testmultiphase
+_tkinter
+_uuid
+_zoneinfo
+pyexpat
+select
+unicodedata
+winsound
+
+ 
+C:\Users\immortall prog\AppData\Local\Programs\Python\Python310\lib
+      	 	
+__future__
+_aix_support
+_bootsubprocess
+_collections_abc
+_compat_pickle
+_compression
+_markupbase
+_osx_support
+_py_abc
+_pydecimal
+_pyio
+_sitebuiltins
+_strptime
+_threading_local
+_weakrefset
+abc
+aifc
+antigravity
+argparse
+ast
+asynchat
+asyncio (package)
+asyncore
+base64
+bdb
+binhex
+bisect
+bz2
+cProfile
+calendar
+cgi
+cgitb
+chunk
+cmd
+code
+codecs
+codeop
+collections (package)
+colorsys
+compileall
+concurrent (package)
+configparser
+contextlib
+contextvars
+copy
+copyreg
+crypt
+csv
+ctypes (package)
+curses (package)
+dataclasses
+datetime
+dbm (package)
+decimal
+difflib
+dis
+distutils (package)
+doctest
+email (package)
+encodings (package)
+ensurepip (package)
+enum
+filecmp
+fileinput
+fnmatch
+fractions
+ftplib
+functools
+genericpath
+getopt
+getpass
+gettext
+glob
+graphlib
+gzip
+hashlib
+heapq
+hmac
+html (package)
+http (package)
+idlelib (package)
+imaplib
+imghdr
+imp
+importlib (package)
+inspect
+io
+ipaddress
+json (package)
+keyword
+lib2to3 (package)
+linecache
+locale
+logging (package)
+lzma
+mailbox
+mailcap
+mimetypes
+modulefinder
+msilib (package)
+multiprocessing (package)
+netrc
+nntplib
+ntpath
+nturl2path
+numbers
+opcode
+operator
+optparse
+os
+pathlib
+pdb
+pickle
+pickletools
+pipes
+pkgutil
+platform
+plistlib
+poplib
+posixpath
+pprint
+profile
+pstats
+pty
+py_compile
+pyclbr
+pydoc
+pydoc_data (package)
+queue
+quopri
+random
+re
+reprlib
+rlcompleter
+runpy
+sched
+secrets
+selectors
+shelve
+shlex
+shutil
+signal
+site
+smtpd
+smtplib
+sndhdr
+socket
+socketserver
+sqlite3 (package)
+sre_compile
+sre_constants
+sre_parse
+ssl
+stat
+statistics
+string
+stringprep
+struct
+subprocess
+sunau
+symtable
+sysconfig
+tabnanny
+tarfile
+telnetlib
+tempfile
+test (package)
+textwrap
+this
+threading
+timeit
+tkinter (package)
+token
+tokenize
+trace
+traceback
+tracemalloc
+tty
+turtle
+turtledemo (package)
+types
+typing
+unittest (package)
+urllib (package)
+uu
+uuid
+venv (package)
+warnings
+wave
+weakref
+webbrowser
+wsgiref (package)
+xdrlib
+xml (package)
+xmlrpc (package)
+zipapp
+zipfile
+zipimport
+zoneinfo (package)
+
+ 
+C:\Users\immortall prog\AppData\Local\Programs\Python\Python310
+      	 	
+
+ 
+C:\Users\immortall prog\AppData\Local\Programs\Python\Python310\lib\site-packages
+      	 	
+_distutils_hack (package)
+pip (package)
+pkg_resources (package)
+setuptools (package)
+

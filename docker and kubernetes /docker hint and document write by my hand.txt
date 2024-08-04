@@ -1,0 +1,22 @@
+docker run -it --rm -d -p 8000:80 --name 'name the website without the two quotes' nginx //to run nginx in docker
+
+--rm //for remove any container in the same name automatically 
+-d// for run in the background and run as a demon 
+-p//for port
+//////////////////////////////////////////////////
+you can find the documintation in docker hub in the same container you download it
+
+in docker we need creat 2 file docker type first one is 
+docker-compose.yaml
+second ****
+Dockerfile
+inside the docker file we write the container code what ever it is 
+
+
+in yaml we need to specify the file and using docker-compose and the default file where the code upload on server 
+
+
+in docker and k8s
+we need to know about pods then worknodes then control pods then cluster after that 
+when we need to push any image and deployment to k8s we need to push the image to our repo in docker to identify the image by using command existing in command file docker
+

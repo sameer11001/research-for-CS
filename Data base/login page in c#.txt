@@ -1,0 +1,45 @@
+//this in login page in public
+static string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\immortall prog\Desktop\MedicalClinic\MedicalClinic\sameer.mdf"";Integrated Security=True";
+        SqlConnection conn = new SqlConnection(cs);
+        SqlCommand cmd;
+        SqlDataReader dr;
+//in button login click 
+ cmd = new SqlCommand("select * from personal_info where usern=@usern and passw=@passw ",conn);
+            cmd.Parameters.AddWithValue("@usern", textBox1.Text);
+            cmd.Parameters.AddWithValue("@passw", textBox2.Text);
+
+            conn.Open();
+            dr = cmd.ExecuteReader();
+
+            if (dr.HasRows)
+            {
+                MessageBox.Show("Login success");
+                Form3 f2 = new Form3();
+                f2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Login faild ,Try again");
+            }
+            conn.Close();
+/////////////////////////////////////////////////////////////
+//this is when we need to creat acc
+try
+            {
+                string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\immortall prog\Desktop\MedicalClinic\MedicalClinic\sameer.mdf"";Integrated Security=True";
+                SqlConnection conn = new SqlConnection(cs);
+                //open query
+                conn.Open();
+                //execute query
+                string query = "insert into personal_info (pname,email_,usern,passw) values ('" + textBox1.Text + "','" + textBox3.Text + "','" + textBox5.Text + "','" + textBox4.Text + "')";
+
+                SqlCommand comd = new SqlCommand(query, conn);
+                comd.ExecuteNonQuery();
+                //close query 
+                conn.Close();
+                MessageBox.Show("data stored sucessfully");
+            }
+            catch {
+                MessageBox.Show("error occured");
+            }
